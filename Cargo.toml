@@ -1,0 +1,11 @@
+[package]
+name = "lau-renormalization"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Renormalization group theory: RG flows, fixed points, critical exponents, Wilsonian RG, epsilon expansion, universality classes, and scaling relations"
+repository = "https://github.com/SuperInstance/lau-renormalization"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
