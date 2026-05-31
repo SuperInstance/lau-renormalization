@@ -1,3 +1,4 @@
+#![deny(unsafe_code)]
 //! # lau-renormalization
 //!
 //! Renormalization group theory — the mathematical framework for understanding
